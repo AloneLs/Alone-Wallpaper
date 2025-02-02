@@ -1,0 +1,11 @@
+{
+    "primaryColor": {
+        "type": "color",
+        "text": "Основной цвет",
+        "value": "#360e94"
+    },
+    "rainbowMode": {
+        "type": "checkbox",
+        "text": "Радужный режим"
+    }
+}

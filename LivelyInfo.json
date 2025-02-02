@@ -1,0 +1,14 @@
+{
+    "AppVersion": "1.0.0.0",
+    "Thumbnail": "preview.png",
+    "Preview": "preview.png",
+    "Title": "Alone Wallpaper",
+    "Desc": "Alone Wallpaper",
+    "Author": "Alone",
+    "Type": 1,
+    "FileName": "src/index.html",
+    "Arguments": "--audio --system-nowplaying --pause-event true --system-information",
+    "Id": null,
+    "Tags": null,
+    "Version": 0
+}

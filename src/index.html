@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Alone Wallpaper</title>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <div class="content">
+            <div id="background">
+                <div class="shadow"></div>
+            </div>
+            <div class="clock">
+                <div class="time-container">
+                    <p id="time">00:00</p>
+                </div>
+                <div class="day-container">
+                    <p id="day">ЧЕТВЕРГ</p>
+                </div>
+                <div class="date-container">
+                    <p id="date">01.01.1970</p>
+                </div>
+            </div>
+            <div id="track">
+                <div id="thumbnail" class="skeleton">
+                    <img class="hidden" src="" />
+                </div>
+                <div class="content">
+                    <div class="details">
+                        <div id="title" class="skeleton">
+                            <p class="text"></p>
+                        </div>
+                        <div id="author" class="skeleton">
+                            <p class="text"></p>
+                        </div>
+                    </div>
+
+                    <div id="sound-icon" class="icon">
+                        <div class="sound-icon active">
+                            <div class="bar bar-1"></div>
+                            <div class="bar bar-2"></div>
+                            <div class="bar bar-3"></div>
+                            <div class="bar bar-4"></div>
+                            <div class="bar bar-5"></div>
+                        </div>
+                        <div class="sound-icon">
+                            <div class="bar bar-1"></div>
+                            <div class="bar bar-2"></div>
+                            <div class="bar bar-3"></div>
+                            <div class="bar bar-4"></div>
+                            <div class="bar bar-5"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="audio-visualizer">
+                <canvas></canvas>
+            </div>
+        </div>
+    </body>
+    <script src="./scripts/libs/particles.min.js"></script>
+    <script type="module" src="./scripts/index.js"></script>
+</html>
